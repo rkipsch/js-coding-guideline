@@ -1101,7 +1101,7 @@ define('myModule',
 *
 * @requires module:Marionette
 */
-function (UWA)
+function (Marionette)
 {
     ...
 }
