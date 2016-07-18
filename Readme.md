@@ -253,7 +253,7 @@ function isEnabled () {};
 
 AMD module example:
 ```javascript
-define(myModule", [
+define("myModule", [
     "jQuery",
     "marionette"
 ], function ($, Marionette) {
