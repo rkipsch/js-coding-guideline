@@ -64,7 +64,7 @@
 
 
 ## Introduction
-The following style guide is based on other popular style guides out there and based on some best practices. The following guides have been a source of inspiration:
+The following style guide is based on other popular style guides out there and is based on some best practices. The following guides have been a source of inspiration:
 
 * http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
 * http://www.2ality.com/2013/07/meta-style-guide.html
@@ -141,7 +141,7 @@ Then use a JSHint plugin for your editor for instance like "SublimeLinter" for S
 ## JavaScript Language Rules
 
 ### Variable declaration
-Declarations with `var` always.
+Declarations with `var`, `const` or `let` always.
 
 Decision:
 When you fail to specify var, the variable gets placed in the global context, potentially clobbering existing values. Also, if there's no declaration, it's hard to tell in what scope a variable lives (e.g., it could be in the Document or Window just as easily as in the local scope). So always declare with var.
@@ -1374,13 +1374,8 @@ In HTML5, just do:
 
 (The MIT License)
 
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-'Software'), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be
 included in all copies or substantial portions of the Software.
